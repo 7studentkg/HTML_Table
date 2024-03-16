@@ -6,13 +6,14 @@ body {
     min-height: 100vh;
     padding: 50px;
     background-color: #18191C;
-    color: #e6dfdf;
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
 
   }
 
 table {
-    width: 550px;
+    height: 0px;
+    width: 700px;
     border-top: 7px solid rgb(255, 255, 255);
     border-collapse: collapse;
     text-align: center;
@@ -22,11 +23,16 @@ table {
     /* margin-bottom: 20px; добавляем отступ между таблицами */
     border-collapse: separate;
     border-spacing: 10px 15px;
+
+}
+
+caption {
+    font-size: 24px;
 }
 
 td {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 700px;
     text-align: left;
 	padding: 10px;
     height: 70px;
